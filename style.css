@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+
+header{
+
+    display: flex;
+    background-color: #232A31;
+    height: 75px;
+    width: 100%;    
+    grid-template-rows: 0;
+    align-items: center;
+    color: white;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+h1, h2, h3 {
+	color: #333;
+}
+
+p {
+	color: #70747A;
+}
+
+.navh4{
+
+    margin: 0px 10px;
+
+}
+
+.navLogin{
+
+    color: white;
+    background-color: #2CC76A;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+.caracteristica{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carac{
+
+    text-align: center;
+    height: auto;
+    width: 25%;
+    
+}
