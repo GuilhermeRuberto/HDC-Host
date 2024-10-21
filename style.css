@@ -45,7 +45,7 @@ p {
 
 }
 
-.caracteristica{
+.carac-container{
     display: flex;
     justify-content: space-evenly;
 }
@@ -56,4 +56,82 @@ p {
     height: auto;
     width: 25%;
     
+}
+
+.preco-container {
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+.preco-container h1 {
+	font-size: 35px;
+}
+
+.preco-container p {
+	font-size: 20px;
+}
+
+.plano-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	width: 90%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.plano {
+    width: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.plano ul { 
+	padding: 0;
+}
+
+.plano li {
+	list-style: none;
+	height: 50px;   
+	line-height: 50px;
+	background-color: #e8e9ea;
+	color: #333;
+}
+
+.plano .preco {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #2CC762;
+	color: #FFF;
+	text-align: center;
+	line-height: 120px;
+	font-size: 18px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -50px;
+}
+
+.plano .plano-nome {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #202B34;
+	padding-top: 40px;
+	padding-bottom: 45px;
+}
+
+.plano .plano-btn {
+	background-color: #2CC762;
+	color: #FFF;
+	font-size: 24px;
+	height: 74px;
+	line-height: 75px;
+	cursor: pointer;
+}
+
+.plano .recomendado {
+	background-color: #F45C57;
 }
