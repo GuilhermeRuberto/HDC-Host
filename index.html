@@ -9,14 +9,21 @@
 <body>
 
     <header>
-        <nav>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Planos</a></li>
-            <li><a href="#">Contato</a></li>
-            <button class="navLogin navh4"><h4>LOGIN</h4></button>
+        <nav class="nav-container">
+            <a href="#"><img class="logo" src="pngs/hdchostlogo.png"></a>
+            <ul class="nav-li">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Planos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#" class="btn">Login</a></li>
+            </ul>
         </nav>
     </header>
 
+    <div class="banner">
+        <h1>hDC Host</h1>
+        <p>Os melhores planos para qualquer tipo de projeto!</p>
+    </div>
 
     <div class="carac-container">
 
@@ -107,8 +114,8 @@
             <input type="text" name="dominio" placeholder="Digite seu domínio desejado">
             <input type="submit" value="Buscar Domínio">
         </form>
-    </section>
-    <section class="contato-container">
+    </div>
+    <div class="contato-container">
         <h2>Entre em contato</h2>
         <p>Mande uma mensagem para nós conversarmos sobre a melhor hospedagem para seu negócio</p>
         <form>
@@ -118,7 +125,6 @@
             <input type="submit" value="Enviar">
         </form>
     </div>
-
     
 </body>
 </html>
